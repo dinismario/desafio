@@ -11,6 +11,7 @@
  *{
      margin: 0px;
      padding: 0px;
+    
  }
  html,body{
      max-height: 100vh;
@@ -33,7 +34,7 @@
 
  }
  a{
-     color: rgb(255, 255, 255);
+     color: #ffffff;
      text-decoration: none;
      font-weight: bolder;
  }
@@ -54,7 +55,7 @@
     padding-bottom: 2em;
  }
 section.normal{
-
+    
      background-color: white;
      color: black;
 }
