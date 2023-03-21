@@ -11,9 +11,6 @@
  *{
      margin: 0px;
      padding: 0px;
-     
-     
-     
  }
  html,body{
      max-height: 100vh;
@@ -33,6 +30,7 @@
  }
  header>p{
      padding-bottom: 50px;
+
  }
  a{
      color: rgb(255, 255, 255);
@@ -41,6 +39,7 @@
  }
  header>p>a:hover{
      text-decoration: underline;
+     color: #07bce5d1;
  }
  section{
      font-family: var(--fonte3);
@@ -50,7 +49,9 @@
      line-height: 2em;
      font-weight: bolder;
      font-size: 1.2em;
-
+ }
+ section>p{
+    padding-bottom: 2em;
  }
 section.normal{
 
@@ -58,23 +59,29 @@ section.normal{
      color: black;
 }
 section.imagem>p{
-
-     background-color: rgba(32, 31, 31, 0.637);
-  display: inline-block;
+     text-shadow: 2px 2px 0px black;
+     background-color: #201f1fa2;
+     display: inline-block;
 }
 section.imagem{
-
-    background-color: rgba(0, 0, 0, 0.216);
+    background-color: #00000037;
     color: white;
+    box-shadow: inset 6px 6px 10px 0px #0000007b;
+    background-attachment: fixed;
 }
-
-
-
-
-
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
  footer>p>a:hover{
      text-decoration: underline;
-     color: black;
+     color: #07bce5d1;
  }
  footer{
      background-color: black;
